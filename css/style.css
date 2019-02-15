@@ -1,0 +1,163 @@
+/*
+*
+*Body
+*/
+
+body
+{
+    font-family: 'Acme','Coiny','Hanalei Fill', Helvetica, sans-serif;
+    color: #ffffff;
+    background: #353535;
+}
+
+/*
+*
+*Home page
+*/
+
+.wrapper
+{
+    background-color: #009783;
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-weight: bold;
+    border: solid;
+    border-radius: 5px;
+    border-color: #009783;
+    box-shadow: 10px 10px 15px 5px #161616;
+}
+
+/*
+*
+*Button
+*/
+
+.begin
+{
+    font-family: 'Coiny';
+    padding: 15px 40px;
+    color: #ecf0f1;
+    font-size: 19px;
+    font-weight: bolder;;
+    border-radius: 2px;
+    border: none;
+    background-color:#85032e;
+    cursor: pointer;
+    transition: all 600ms;
+    opacity: 1.2;
+    box-shadow: 4px 4px 20px 1px black;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.begin:hover
+{
+    background: #530097;
+    border-radius: 2px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    transform: scale(1.1);
+}
+
+/*
+*
+*challenge 1,2,3,4 and 5 containers
+*/
+
+.challenge1Div, .challenge2Div, .challenge3Div, .challenge4Div, .challenge5Div
+{
+    background-color: #009783;
+    position: absolute;
+    width: 1000px;
+    height: 415px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border: solid;
+    border-radius: 5px;
+    border-color: #009783;
+    box-shadow: 10px 10px 15px 5px #161616;
+}
+
+.inputF
+{
+    height: 45px;
+    width: 200px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    background-color: whitesmoke;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: none;
+    color: #000000;
+    box-shadow: 4px 4px 20px 1px black;
+}
+
+.cBtn
+{
+    font-family: 'Coiny';
+    padding: 15px 40px;
+    color: #ecf0f1;
+    font-size: 19px;
+    font-weight: bolder;;
+    border-radius: 4px;
+    border: none;
+    background-color:#85032e;
+    cursor: pointer;
+    transition: all 400ms;
+    opacity: 1;
+    box-shadow: 4px 4px 20px 1px black;
+}
+
+.cBtn:hover
+{
+    transform: scale(1.05);
+    background-color: #530097;
+    border-radius: 30px;
+}
+
+/*
+*
+*navigation bar
+*/
+.navBar
+{
+    overflow: hidden;
+    background: #009783;
+    font-family: 'Coiny';
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: -100px;
+    position: absolute;
+    bottom: 25px;
+    clear: both;
+    left: 15%;
+    box-shadow: 10px 10px 15px 5px #161616;
+}
+.navBar a
+{
+    width: 100px;
+    float: left;
+    align-content: center;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+}
+
+.navBar a:hover
+{
+    background:  #85032e;
+    border-radius: 10px;
+    transition: all 600ms;
+    transform: scale(1.05);
+}
